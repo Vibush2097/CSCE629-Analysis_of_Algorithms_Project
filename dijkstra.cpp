@@ -62,8 +62,6 @@ void Dijkstra(struct AdjList *adjList, int src, int dest) {
         fringeCount++;
     }
 
-    cout<<"Fringe count: "<<fringeCount<<endl;
-
     while(fringeCount>0) {
         max = -1; index=-1;
         for(i=0; i<9; i++) {
@@ -125,5 +123,5 @@ int main()
     addEdge(adjList, 3, 5, 14);
     addEdge(adjList, 3, 4, 9);
     addEdge(adjList, 5, 4, 10);
-    Dijkstra(adjList, 0, 4);
+    Dijkstra(adjList, 3, 5);
 }  
