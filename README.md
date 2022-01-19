@@ -23,9 +23,10 @@ The results for sparse graphs is as follows:
 |Kruskal with path compression 	  |9.76 milliseconds      |
 
 The results for dense graphs is as follows:  
-Algorithm	                           Avg running time  
-Dijkstra without heap	              329.76 milliseconds  
-Dijkstra with heap	                335.04 milliseconds  
-Kruskal without path compression	  2534.12 milliseconds  
-Kruskal with path compression	      3526.4 milliseconds  
+|Algorithm	                     |     Avg running time     |
+|--------------------------------|:------------------------:|
+|Dijkstra without heap	         |     329.76 milliseconds  |
+|Dijkstra with heap	             |   335.04 milliseconds    |
+|Kruskal without path compression|	  2534.12 milliseconds  |
+|Kruskal with path compression	 |     3526.4 milliseconds  | 
 
