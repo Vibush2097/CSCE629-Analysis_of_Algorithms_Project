@@ -15,11 +15,11 @@ In order to test these algorithms, 2 types of graphs were used
 All graphs are randomly generated. For the purpose of comparison, 25 random dense and 25 random sparse graphs were tested and the amount of running time was measured for each.
 
 The results for sparse graphs is as follows:  
-Algorithm	                         Avg running time  
-Dijkstra without heap	            40.64 milliseconds  
-Dijkstra with heap	              1 millisecond  
-Kruskal without path compression	4.88 milliseconds  
-Kruskal with path compression 	  9.76 milliseconds  
+Algorithm&nbsp;&nbsp;&nbsp;	                   Avg running time  
+Dijkstra without heap&nbsp;&nbsp;&nbsp;	            40.64 milliseconds  
+Dijkstra with heap&nbsp;&nbsp;&nbsp;	              1 millisecond  
+Kruskal without path compression&nbsp;&nbsp;	4.88 milliseconds  
+Kruskal with path compression&nbsp;&nbsp;&nbsp; 	  9.76 milliseconds  
 
 The results for dense graphs is as follows:  
 Algorithm	                           Avg running time  
